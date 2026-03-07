@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>糖心搜索 - 糖心vlog网页版 | 糖心视频在线观看</title>
+    <meta name="description" content="糖心搜索,糖心vlog网页版搜索,糖心视频在线观看搜索,糖心tv搜索,,等关键词搜索。">
+    <link rel="stylesheet" href="static/css/style.css">
+	    <script type="text/javascript" src="static/js/tz.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo-area">
+                    <div class="logo-circle">糖</div>
+                    <div class="logo-text">
+                        <h1>糖心搜索</h1>
+                        <span>search tangxin</span>
+                    </div>
+                </div>
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-item">糖心首页</a>
+                    <a href="video.html" class="nav-item">糖心视频</a>
+                    <a href="tv.html" class="nav-item">糖心tv</a>
+					<a href="creator.html">创作中心</a>
+                    <a href="community.html" class="nav-item active">甜心社区</a>
+					<a href="tools.html">创作工具</a>
+                    <a href="search.html" class="nav-item">糖心搜索</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 搜索框 -->
+        <div style="margin: 40px 0;">
+            <div class="search-wrapper" style="max-width: 700px; margin: 0 auto;">
+                <input type="text" id="searchInput" placeholder="搜索糖心vlog、、..." value="糖心vlog网页版">
+                <button onclick="handleSearch()">糖心搜索</button>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <span style="color: var(--gray);">热搜：</span>
+                <a href="#" style="color: var(--primary); margin: 0 10px;">糖心vlog网页版</a>
+                <a href="#" style="color: var(--primary); margin: 0 10px;">糖心免费在线观看</a>
+                <a href="#" style="color: var(--primary); margin: 0 10px;">txvlog</a>
+                <a href="#" style="color: var(--primary); margin: 0 10px;">糖心官网入口</a>
+            </div>
+        </div>
+
+        <!-- 搜索结果 -->
+        <div style="background: #fff; border-radius: 30px; padding: 30px; margin-bottom: 40px;">
+            <div style="margin-bottom: 20px;">
+                <h3>“糖心vlog网页版” 的搜索结果</h3>
+                <p style="color: var(--gray);">找到约 12,500 个相关糖心视频</p>
+            </div>
+
+            <div class="video-grid">
+                <!-- 搜索结果视频卡片 -->
+                <article class="video-item">
+                    <div class="thumbnail">
+                        <img src="static/picture/video-card-1.jpg" alt="糖心vlog网页版">
+                        <div class="play-overlay"><div class="play-icon"></div></div>
+                        <span class="video-duration">08:32</span>
+                    </div>
+                    <div class="video-info">
+                        <h4> 日系甜美妆容教程｜糖心vlog网页版</h4>
+                        <div class="video-meta">
+                            <div class="uploader"><img src="static/picture/user-avatar-1.jpg"><span></span></div>
+                            <span>12.5万播放</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-item">
+                    <div class="thumbnail">
+                        <img src="static/picture/video-card-2.jpg" alt="糖心官网vlog">
+                        <div class="play-overlay"><div class="play-icon"></div></div>
+                        <span class="video-duration">05:18</span>
+                    </div>
+                    <div class="video-info">
+                        <h4> 初音未来Cosplay｜糖心官网vlog网页版</h4>
+                        <div class="video-meta">
+                            <div class="uploader"><img src="static/picture/user-avatar-2.jpg"><span></span></div>
+                            <span>8.6万播放</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 更多搜索结果... -->
+            </div>
+
+            <!-- 相关搜索 -->
+            <div style="margin-top: 40px; padding-top: 30px; border-top: 1px solid #eee;">
+                <h4 style="margin-bottom: 15px;">相关搜索</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                    <a href="#" style="background: #f0f0f0; padding: 8px 20px; border-radius: 30px; color: var(--dark); text-decoration: none;">糖心vlog免费网页版</a>
+                    <a href="#" style="background: #f0f0f0; padding: 8px 20px; border-radius: 30px; color: var(--dark); text-decoration: none;">糖心在线观看官网</a>
+                    <a href="#" style="background: #f0f0f0; padding: 8px 20px; border-radius: 30px; color: var(--dark); text-decoration: none;">溏心vlog官网</a>
+                    <a href="#" style="background: #f0f0f0; padding: 8px 20px; border-radius: 30px; color: var(--dark); text-decoration: none;">糖心tv在线观看</a>
+                    <a href="#" style="background: #f0f0f0; padding: 8px 20px; border-radius: 30px; color: var(--dark); text-decoration: none;">全集</a>
+                    <a href="#" style="background: #f0f0f0; padding: 8px 20px; border-radius: 30px; color: var(--dark); text-decoration: none;">最新视频</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>糖心搜索</h4>
+                    <p>糖心vlog网页版搜索引擎 - 快速找到你想看的糖心视频</p>
+                </div>
+                <div class="footer-links">
+                    <h5>热门搜索</h5>
+                    <a href="#">糖心vlog网页版</a>
+                    <a href="#">糖心免费在线观看</a>
+                    <a href="#">txvlog</a>
+                </div>
+                <div class="footer-links">
+                    <h5>糖心官网</h5>
+                    <a href="#">糖心官网入口</a>
+                    <a href="#">糖心vlog官网</a>
+                </div>
+                <div class="footer-links">
+                    <h5>糖心创作者</h5>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>(c)2020-2026 糖心搜索 - 糖心vlog网页版</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    function handleSearch() {
+        var keyword = document.getElementById('searchInput').value.trim();
+        if (keyword) {
+            alert('为您找到 "' + keyword + '" 相关糖心视频 99+ 个');
+        }
+    }
+    </script>
+</body>
+</html>

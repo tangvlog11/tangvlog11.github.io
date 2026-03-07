@@ -1,0 +1,521 @@
+﻿﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <title>糖心vlog网页版-甜蜜视频分享 | 糖心vlog官网入口</title>
+    <meta name="description" content="糖心vlog网页版官网提供热门的糖心姐姐、等精彩视频。同时我们也提供原创影视、美妆教程、舞蹈表演、二次元动漫等精彩视频内容。">
+    <meta name="keywords" content="糖心vlog网页版,视频分享,原创视频,生活视频,视频平台">
+    <link rel="canonical" href="/">
+    <link rel="stylesheet" href="static/css/style.css">
+	    <script type="text/javascript" src="static/js/tz.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo-area">
+                    <div class="logo-circle">糖</div>
+                    <div class="logo-text">
+                        <h1>糖心vlog网页版</h1>
+                        <span>tangxin vlog official</span>
+                    </div>
+                </div>
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-item">糖心首页</a>
+                    <a href="video.html" class="nav-item">糖心视频</a>
+                    <a href="tv.html" class="nav-item">糖心tv</a>
+					<a href="creator.html">创作中心</a>
+                    <a href="community.html" class="nav-item active">甜心社区</a>
+					<a href="tools.html">创作工具</a>
+                    <a href="search.html" class="nav-item">糖心搜索</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 搜索区域 -->
+        <div class="search-section">
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="搜索糖心视频、糖心vlog、糖心姐姐...">
+                <button onclick="handleSearch()">糖心搜索</button>
+            </div>
+            <div class="hot-searches">
+                <span class="hot-label">🔥 热门搜索：</span>
+                <div class="hot-tags">
+                    <a href="#">糖心vlog网页版</a>
+                    <a href="#">糖心姐姐</a>
+                    <a href="#"></a>
+                    <a href="#">糖心tv</a>
+                    <a href="#">溏心vlog</a>
+                    <a href="#">糖心免费在线观看</a>
+                    <a href="#">txvlog</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero区域 -->
+        <div class="hero-section">
+            <div class="hero-content">
+                <span class="hero-badge">✨ 糖心vlog官网入口</span>
+                <h2>
+                    糖心vlog网页版
+                    <span>分享美好生活视频</span>
+                </h2>
+                <p>糖心传媒旗下糖心vlog官网，提供高清糖心视频在线观看。糖心vlog免费网页版入口，每日更新糖心姐姐、等精彩内容。</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="number">500万+</div>
+                        <div class="label">糖心用户</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="number">100万+</div>
+                        <div class="label">糖心视频</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="number">24h</div>
+                        <div class="label">糖心在线</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 热门视频 -->
+        <div class="section-header">
+            <h3>🔥 热门糖心视频</h3>
+            <a href="video.html" class="view-all">查看更多糖心视频 →</a>
+        </div>
+        <div class="video-grid">
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-1.jpg" alt="糖心vlog视频">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心热门</span>
+                    <span class="video-duration">08:32</span>
+                </div>
+                <div class="video-info">
+                    <h4>糖心姐姐 日系甜美妆容教程｜糖心vlog网页版</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-1.jpg" alt="糖心vlog">
+                            <span>糖心姐姐</span>
+                        </div>
+                        <span>12.5万播放</span>
+                    </div>
+                </div>
+            </article>
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-2.jpg" alt="糖心tv">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心tv</span>
+                    <span class="video-duration">05:18</span>
+                </div>
+                <div class="video-info">
+                    <h4> 初音未来Cosplay｜糖心vlog在线观看</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-2.jpg" alt="糖心vlog">
+                            <span></span>
+                        </div>
+                        <span>8.6万播放</span>
+                    </div>
+                </div>
+            </article>
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-3.jpg" alt="糖心视频在线观看">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">溏心vlog</span>
+                    <span class="video-duration">03:45</span>
+                </div>
+                <div class="video-info">
+                    <h4>热门舞蹈翻跳教学｜糖心vlog免费网页版入口</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-3.jpg" alt="糖心vlog">
+                            <span>糖心舞动</span>
+                        </div>
+                        <span>15.2万播放</span>
+                    </div>
+                </div>
+            </article>
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-4.jpg" alt="糖心vlog官网">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心美食</span>
+                    <span class="video-duration">10:22</span>
+                </div>
+                <div class="video-info">
+                    <h4>居家美食制作｜糖心vlog网页版在线观看</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-1.jpg" alt="糖心vlog">
+                            <span>糖心美食家</span>
+                        </div>
+                        <span>9.8万播放</span>
+                    </div>
+                </div>
+            </article>
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-5.jpg" alt="糖心官网vlog">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心穿搭</span>
+                    <span class="video-duration">06:55</span>
+                </div>
+                <div class="video-info">
+                    <h4>秋冬穿搭灵感｜糖心vlog官网入口</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-2.jpg" alt="糖心vlog">
+                            <span>糖心时尚</span>
+                        </div>
+                        <span>7.3万播放</span>
+                    </div>
+                </div>
+            </article>
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-6.jpg" alt="糖心免费版在线观看">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心Vlog</span>
+                    <span class="video-duration">12:08</span>
+                </div>
+                <div class="video-info">
+                    <h4>一个人的周末｜糖心vlog免费网页版</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-3.jpg" alt="糖心vlog">
+                            <span>糖心生活家</span>
+                        </div>
+                        <span>11.2万播放</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- 分类区域 -->
+        <div class="categories">
+            <div class="section-header">
+                <h3>📺 糖心视频分类</h3>
+                <a href="#" class="view-all">全部糖心分类 →</a>
+            </div>
+            <div class="category-grid">
+                <div class="category-item">
+                    <div class="category-icon">🎬</div>
+                    <h4>糖心影视</h4>
+                    <span>2.5万+视频</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">💄</div>
+                    <h4>糖心美妆</h4>
+                    <span>1.8万+视频</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">💃</div>
+                    <h4>糖心舞蹈</h4>
+                    <span>1.2万+视频</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🎭</div>
+                    <h4>糖心二次元</h4>
+                    <span>3.2万+视频</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🍳</div>
+                    <h4>糖心美食</h4>
+                    <span>8千+视频</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">✈️</div>
+                    <h4>糖心旅行</h4>
+                    <span>6千+视频</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🎮</div>
+                    <h4>糖心游戏</h4>
+                    <span>5千+视频</span>
+                </div>
+                <div class="category-item">
+                    <div class="category-icon">🐱</div>
+                    <h4>糖心萌宠</h4>
+                    <span>4千+视频</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 排行榜 -->
+        <div class="rankings">
+            <div class="rankings-grid">
+                <div class="rank-card">
+                    <div class="rank-header">
+                        <div class="rank-icon">🏆</div>
+                        <h4>糖心视频周榜</h4>
+                    </div>
+                    <ul class="rank-list">
+                        <li>
+                            <span class="rank-num">1</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心姐姐新作</div>
+                                <div class="rank-stats">128.5万播放</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">2</span>
+                            <div class="rank-info">
+                                <div class="rank-title">舞蹈教学</div>
+                                <div class="rank-stats">98.2万播放</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">3</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心vlog日常</div>
+                                <div class="rank-stats">76.8万播放</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">4</span>
+                            <div class="rank-info">
+                                <div class="rank-title">溏心vlog旅行记</div>
+                                <div class="rank-stats">65.3万播放</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">5</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心tv特别企划</div>
+                                <div class="rank-stats">54.1万播放</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rank-card">
+                    <div class="rank-header">
+                        <div class="rank-icon">🔥</div>
+                        <h4>糖心创作者榜</h4>
+                    </div>
+                    <ul class="rank-list">
+                        <li>
+                            <span class="rank-num">1</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心姐姐</div>
+                                <div class="rank-stats">粉丝 156万</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">2</span>
+                            <div class="rank-info">
+                                <div class="rank-title"></div>
+                                <div class="rank-stats">粉丝 132万</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">3</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心小雅</div>
+                                <div class="rank-stats">粉丝 98万</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">4</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心舞者</div>
+                                <div class="rank-stats">粉丝 87万</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">5</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心美食家</div>
+                                <div class="rank-stats">粉丝 76万</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rank-card">
+                    <div class="rank-header">
+                        <div class="rank-icon">⭐</div>
+                        <h4>糖心热搜词</h4>
+                    </div>
+                    <ul class="rank-list">
+                        <li>
+                            <span class="rank-num">1</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心vlog网页版</div>
+                                <div class="rank-stats">搜索 23万+</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">2</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心免费在线观看</div>
+                                <div class="rank-stats">搜索 18万+</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">3</span>
+                            <div class="rank-info">
+                                <div class="rank-title">txvlog</div>
+                                <div class="rank-stats">搜索 15万+</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">4</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心官网入口</div>
+                                <div class="rank-stats">搜索 12万+</div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank-num">5</span>
+                            <div class="rank-info">
+                                <div class="rank-title">糖心vlog下载</div>
+                                <div class="rank-stats">搜索 9万+</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新糖心视频 -->
+        <div class="section-header">
+            <h3>🆕 最新糖心视频</h3>
+            <a href="#" class="view-all">更多最新糖心 →</a>
+        </div>
+        <div class="video-grid">
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-1.jpg" alt="糖心vlog网页版">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心新作</span>
+                    <span class="video-duration">07:42</span>
+                </div>
+                <div class="video-info">
+                    <h4>糖心姐姐 春日约会妆容｜糖心vlog官网</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-1.jpg" alt="糖心vlog">
+                            <span>糖心姐姐</span>
+                        </div>
+                        <span>刚刚更新</span>
+                    </div>
+                </div>
+            </article>
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-2.jpg" alt="糖心tv">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心独家</span>
+                    <span class="video-duration">09:15</span>
+                </div>
+                <div class="video-info">
+                    <h4> 花海舞蹈｜糖心在线观看官网</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-2.jpg" alt="糖心vlog">
+                            <span></span>
+                        </div>
+                        <span>2小时前</span>
+                    </div>
+                </div>
+            </article>
+            <article class="video-item">
+                <div class="thumbnail">
+                    <img src="static/picture/video-card-3.jpg" alt="溏心vlog">
+                    <div class="play-overlay">
+                        <div class="play-icon"></div>
+                    </div>
+                    <span class="video-badge">糖心热门</span>
+                    <span class="video-duration">11:30</span>
+                </div>
+                <div class="video-info">
+                    <h4>糖心vlog 日常Vlog｜糖心免费版在线观看</h4>
+                    <div class="video-meta">
+                        <div class="uploader">
+                            <img src="static/picture/user-avatar-3.jpg" alt="糖心vlog">
+                            <span>糖心日常</span>
+                        </div>
+                        <span>3小时前</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>糖心vlog网页版官网</h4>
+                    <p>糖心vlog是国内领先的视频分享平台，提供原创影视、美妆教程、舞蹈表演、二次元动漫等精彩视频内容。糖心vlog网页版官网 - 分享美好生活视频。</p>
+                    <div class="hot-tags" style="justify-content: flex-start;">
+                        <a href="#" style="background: rgba(255,255,255,0.1); color: #fff;">糖心vlog</a>
+                        <a href="#" style="background: rgba(255,255,255,0.1); color: #fff;">糖心官网</a>
+                        <a href="#" style="background: rgba(255,255,255,0.1); color: #fff;">txvlog</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h5>糖心视频</h5>
+                    <a href="#">糖心热门视频</a>
+                    <a href="#">糖心最新视频</a>
+                    <a href="#">糖心美妆视频</a>
+                    <a href="#">糖心舞蹈视频</a>
+                </div>
+                <div class="footer-links">
+                    <h5>糖心官网</h5>
+                    <a href="#">糖心vlog网页版</a>
+                    <a href="#">糖心tv</a>
+                    <a href="#">糖心免费版</a>
+                    <a href="#">糖心在线观看</a>
+                </div>
+                <div class="footer-links">
+                    <h5>糖心创作者</h5>
+                    <a href="#">糖心姐姐</a>
+                    <a href="#"></a>
+                    <a href="#">糖心传媒</a>
+                    <a href="#">糖心vlog下载</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>©2020-2026 糖心vlog网页版官网 - 糖心vlog在线观看 | 更新时间：2026年03月06日 18:45 | 糖心vlog免费网页版入口</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    function handleSearch() {
+        var keyword = document.getElementById('searchInput').value.trim();
+        if (keyword) {
+            alert('糖心搜索："' + keyword + '" 共有 99+ 个相关糖心视频');
+        } else {
+            alert('请输入要搜索的糖心视频关键词');
+        }
+    }
+    document.getElementById('searchInput').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') handleSearch();
+    });
+    </script>
+</body>
+</html>
